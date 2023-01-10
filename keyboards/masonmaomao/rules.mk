@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 MCU = STM32F072
 
 # Bootloader selection
@@ -14,10 +15,13 @@ BOOTLOADER = stm32-dfu
 >>>>>>> 92a127c1fb (Add initial rules.mk)
 =======
 >>>>>>> 4b812ebaea (Add initial rules.mk)
+=======
+>>>>>>> 7db44193cc (Add initial rules.mk)
 MCU = atmega32u4
 
 # Bootloader selection
 BOOTLOADER = atmel-dfu
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,11 +32,14 @@ BOOTLOADER = atmel-dfu
 >>>>>>> 92a127c1fb (Add initial rules.mk)
 =======
 >>>>>>> 4b812ebaea (Add initial rules.mk)
+=======
+>>>>>>> 7db44193cc (Add initial rules.mk)
 
 # Build Options
 #   change yes to no to disable
 #
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +64,8 @@ OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
 >>>>>>> 92a127c1fb (Add initial rules.mk)
 =======
 >>>>>>> 4b812ebaea (Add initial rules.mk)
+=======
+>>>>>>> 7db44193cc (Add initial rules.mk)
 MOUSEKEY_ENABLE = no        # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
@@ -68,6 +77,7 @@ AUDIO_ENABLE = no           # Audio output
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 909bb8056e (Add initial rules.mk)
 =======
 >>>>>>> 62c7ae0a69 (Add initial rules.mk)
@@ -75,3 +85,5 @@ AUDIO_ENABLE = no           # Audio output
 >>>>>>> 92a127c1fb (Add initial rules.mk)
 =======
 >>>>>>> 4b812ebaea (Add initial rules.mk)
+=======
+>>>>>>> 7db44193cc (Add initial rules.mk)

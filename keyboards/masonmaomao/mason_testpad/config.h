@@ -6,10 +6,30 @@
 /* Layer States*/
 #define LAYER_STATE_8BIT
 
+<<<<<<< HEAD
+=======
+/* USB Device descriptor parameter */
+#define VENDOR_ID 0xFEED
+#define PRODUCT_ID 0x6060
+#define DEVICE_VER 0x0002
+#define MANUFACTURER Binary_Design
+#define PRODUCT Mason_TestPad
+
+>>>>>>> af4c53411a (restruct the folder.)
 /* key matrix set */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
+<<<<<<< HEAD
+=======
+/* Rows: Top to Bottom; Columns: Left to Right */
+#define MATRIX_ROW_PINS { A14, B3, A10, A8 }
+#define MATRIX_COL_PINS { A6, A4, A2, A0, A15, A13, B7, A9, A7, A5, A3, A1 }
+
+/* Dioder Direction*/
+#define DIODE_DIRECTION ROW2COL
+
+>>>>>>> af4c53411a (restruct the folder.)
 /* Debounce Setting*/
 #define DEBOUNCE 5
 
@@ -17,7 +37,11 @@
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_DI_PIN B0
 #    define RGBLED_NUM 40
+<<<<<<< HEAD
 #    define RGB_MATRIX_LED_COUNT RGBLED_NUM
+=======
+#    define DRIVER_LED_TOTAL RGBLED_NUM
+>>>>>>> af4c53411a (restruct the folder.)
 
     /* RGB Driver*/
 #    define WS2812_PWM_DRIVER PWMD3                     // The PB0 I/O of STM32F072 uses the TIM3_CH3, so the PWM_Driver would be: PWMD3.

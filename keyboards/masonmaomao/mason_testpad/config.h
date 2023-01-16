@@ -9,26 +9,35 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* USB Device descriptor parameter */
 =======
 /*
 USB Device descriptor parameter
 >>>>>>> 6fc47cf702 (1: restruct Masonmaomao folder, 2: change the 'Driver_LED_Count' to 'RGB_Matrix_Count', 3: add info_json)
+=======
+/* USB Device descriptor parameter */
+>>>>>>> 85ec679adb (restruct the folder.)
 #define VENDOR_ID 0xFEED
 #define PRODUCT_ID 0x6060
 #define DEVICE_VER 0x0002
 #define MANUFACTURER Binary_Design
 #define PRODUCT Mason_TestPad
+<<<<<<< HEAD
 */
 
 >>>>>>> af4c53411a (restruct the folder.)
 =======
 >>>>>>> e986b9c8d0 (move the USB and Matrix Row/Col config to info.json.)
+=======
+
+>>>>>>> 85ec679adb (restruct the folder.)
 /* key matrix set */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +59,15 @@ Dioder Direction
 >>>>>>> af4c53411a (restruct the folder.)
 =======
 >>>>>>> e986b9c8d0 (move the USB and Matrix Row/Col config to info.json.)
+=======
+/* Rows: Top to Bottom; Columns: Left to Right */
+#define MATRIX_ROW_PINS { A14, B3, A10, A8 }
+#define MATRIX_COL_PINS { A6, A4, A2, A0, A15, A13, B7, A9, A7, A5, A3, A1 }
+
+/* Dioder Direction*/
+#define DIODE_DIRECTION ROW2COL
+
+>>>>>>> 85ec679adb (restruct the folder.)
 /* Debounce Setting*/
 #define DEBOUNCE 5
 
@@ -59,6 +77,7 @@ Dioder Direction
 #    define RGBLED_NUM 40
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #    define RGB_MATRIX_LED_COUNT RGBLED_NUM
 =======
 #    define DRIVER_LED_TOTAL RGBLED_NUM
@@ -66,6 +85,9 @@ Dioder Direction
 =======
 #    define RGB_MATRIX_LED_COUNT RGBLED_NUM
 >>>>>>> 6fc47cf702 (1: restruct Masonmaomao folder, 2: change the 'Driver_LED_Count' to 'RGB_Matrix_Count', 3: add info_json)
+=======
+#    define DRIVER_LED_TOTAL RGBLED_NUM
+>>>>>>> 85ec679adb (restruct the folder.)
 
     /* RGB Driver*/
 #    define WS2812_PWM_DRIVER PWMD3                     // The PB0 I/O of STM32F072 uses the TIM3_CH3, so the PWM_Driver would be: PWMD3.

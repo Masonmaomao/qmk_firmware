@@ -6,29 +6,9 @@
 /* Layer States*/
 #define LAYER_STATE_8BIT
 
-/*
-USB Device descriptor parameter
-#define VENDOR_ID 0xFEED
-#define PRODUCT_ID 0x6060
-#define DEVICE_VER 0x0002
-#define MANUFACTURER Binary_Design
-#define PRODUCT Mason_TestPad
-*/
-
 /* key matrix set */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
-
-/*
-Rows: Top to Bottom; Columns: Left to Right
-#define MATRIX_ROW_PINS { A14, B3, A10, A8 }
-#define MATRIX_COL_PINS { A6, A4, A2, A0, A15, A13, B7, A9, A7, A5, A3, A1 }
-*/
-
-/*
-Dioder Direction
-#define DIODE_DIRECTION ROW2COL
-*/
 
 /* Debounce Setting*/
 #define DEBOUNCE 5

@@ -8,6 +8,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* USB Device descriptor parameter */
 =======
@@ -22,10 +23,13 @@ USB Device descriptor parameter
 */
 
 >>>>>>> af4c53411a (restruct the folder.)
+=======
+>>>>>>> e986b9c8d0 (move the USB and Matrix Row/Col config to info.json.)
 /* key matrix set */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -44,6 +48,8 @@ Dioder Direction
 */
 
 >>>>>>> af4c53411a (restruct the folder.)
+=======
+>>>>>>> e986b9c8d0 (move the USB and Matrix Row/Col config to info.json.)
 /* Debounce Setting*/
 #define DEBOUNCE 5
 
